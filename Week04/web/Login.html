@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆账号</title>
+    <style type="text/css">
+        body{
+            background-color: honeydew;
+        }
+        ul li{
+            display: inline;
+            /*background-color: skyblue;*/
+        }
+        input{
+            width: 400px;
+            height:40px;
+            position: absolute;
+            font-size: 18px
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: white;margin: 0;">
+        <ul>
+            <li><img style="width: 50px; height: 25px" src="../img/网易云.png"></li>
+            <li style="font-size: 20px">网易云</li>
+            <li style="font-size: 17px">登录</li>
+            <li style="font-size: 15px;float: right;margin: 10px;">帮助与文档</li>
+            <li style="font-size: 15px;float: right;margin: 10px;">|</li>
+            <li style="font-size: 15px;float: right;margin: 10px;">网易云首页</li>
+        </ul>
+    </div>
+    <img style="position: fixed;left:15%;top: 25%" src="../img/login.png">
+    <div style="background-color:white;
+        width: 500px;height:600px;
+        position: fixed;left: 50%;top:15%;">
+
+        <div style="font-size: 20px;position:absolute;left: 200px;top: 100px;">网易云登录</div>
+
+        <input style="left: 50px;top: 150px;" placeholder="请输入网易云邮箱账号"
+            type="text" id="username" name="username">
+        <input placeholder="请输入密码" style="left: 50px;top: 230px;"
+            type="password" id="password" name="password">
+
+        <input type="checkbox" id="service"
+               style="width: 15px;height:15px;left: 50px;top: 350px;">
+        <label style="position: absolute;left:70px;top: 350px;" for="service">
+            同意并遵守<span style="color: dodgerblue"> 《服务条款》</span></label>
+
+        <input type="checkbox" id="time"
+               style="width: 15px;height:15px;left: 345px;top: 350px;">
+        <label style="position: absolute;left:365px;top: 350px;" for="service">
+            15天免登陆</label>
+
+        <input type="submit" value="登录"
+            style="background-color: dodgerblue;height: 50px;left: 50px;top: 390px;" >
+
+        <div style="position: absolute;left: 50px;top: 450px;width: 450px;">
+            还没有账号?
+            <a href="Register.html" style="text-decoration-line: none">免费注册</a>
+        </div>
+
+        <div style="position:absolute;left: 380px;top: 450px;color: dodgerblue">忘记密码?</div>
+    </div>
+
+</body>
+</html>
